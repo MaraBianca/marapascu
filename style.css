@@ -182,9 +182,6 @@ html{
   color: #262626;
 }
 
-  .scrie{
-    width: 90vw;
-  }  
 
   .scrie h1{
     /* color: #E9458A; */
@@ -202,7 +199,7 @@ html{
     text-transform: lowercase;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 20px;
   }
 
 
@@ -229,6 +226,7 @@ html{
     font-size: 1em;
   }
   
+
   .banner-area{
     display: grid;
     grid-template-columns: 5% 1fr 5%;
@@ -286,6 +284,9 @@ html{
     /* margin-right: 5%; */
   }
 
+  .home{
+    display: none;
+  }
 
   .about-area{
     position: relative;
